@@ -16,7 +16,7 @@ db:
         - "5432"
 
 bundle:
-    image: officeboys_web
+    image: docker-rails-starter_web
     command: echo This is the bundle volume image
     volumes:
         - /bundle
